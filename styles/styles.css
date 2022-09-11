@@ -1,0 +1,68 @@
+/* General CSS for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Main CSS rules */
+
+body {
+    background-color:#fff1b8;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.banner-pic-main {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+img {
+    width: auto;
+    max-height: 700px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recipes {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+li {
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 1200px) {
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+  }
